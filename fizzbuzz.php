@@ -8,11 +8,19 @@
 <link rel="stylesheet" href="style.css" media="screen">
 <link rel="stylesheet" href="normalize.css" media="all">
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="Raptorize-Kit/jquery-1.4.3.min.js"><\/script>')</script>
+<script src="Raptorize-Kit/jquery.raptorize.1.0.js"></script>
+<script type="text/javascript">
+     $(window).load(function() {
+          $('.myButton').raptorize();
+     });
+</script>
 
 </head>
 
 <body>
-
+<button class="myButton">UNLEASH THE RAPTOR IN YOU</button></br>
 <?php
 
 	for($i = 1; $i <=100; $i++ )
