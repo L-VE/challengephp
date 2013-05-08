@@ -1,3 +1,15 @@
 @charset "utf-8";
+body{
+	font-family:Verdana, Geneva, sans-serif;}
 
+#fizzbuzz{
+	color:#0C3;
+	font-weight:bold;}
+#fizz{
+	color:#00F;
+	font-weight:bold;}
+
+#buzz{
+	color:#F00;
+	font-weight:bold;}
 
